@@ -43,7 +43,7 @@ $data_notif = mysqli_fetch_assoc($query_notif);
         .container { width: 85%; margin: 30px auto; }
 
         .notif-bar {
-            background: #28a745;
+            background: #9fa728; //Najwa edit warna di sini
             color: white;
             padding: 15px;
             margin-bottom: 25px;
