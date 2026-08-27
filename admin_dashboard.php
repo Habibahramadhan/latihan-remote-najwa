@@ -1,8 +1,8 @@
 <?php
 include 'config.php';
 session_start();
+// percobaan ngubah dari github
 
-// perubahan baru dibuat oleh serinimut
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php");
     exit();
