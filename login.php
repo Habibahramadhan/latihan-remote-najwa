@@ -9,7 +9,7 @@ if (isset($_SESSION['user_id'])) {
         header("Location: user_dashboard.php");
     }
     exit();
-}
+} //Teks ini di edit langsung dari web github
 
 $error = "";
 
